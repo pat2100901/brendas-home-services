@@ -218,7 +218,7 @@ export function CaregiverApplication() {
         <p className="mt-4 text-sm leading-7 text-ink/68">
           Your email client should have opened with your completed application addressed to{" "}
           <span className="font-semibold text-plum-900">{TO_EMAIL}</span>. Send the message
-          and the Brenda's team will follow up shortly. If nothing opened, you can reach us
+          and the Brenda&rsquo;s team will follow up shortly. If nothing opened, you can reach us
           directly at the same email or 317-222-9557.
         </p>
         <button
@@ -332,7 +332,7 @@ export function CaregiverApplication() {
         </legend>
         <div>
           <p className="text-sm font-semibold text-plum-900">
-            Positions you're interested in
+            Positions you&rsquo;re interested in
           </p>
           <p className="text-xs text-ink/55">Select all that fit. Required.</p>
           <div className="mt-3 grid gap-2 sm:grid-cols-2">
@@ -545,7 +545,7 @@ export function CaregiverApplication() {
       <fieldset className="grid gap-4">
         <legend className="font-serif text-2xl font-semibold text-plum-900">A little more</legend>
         <label className={labelClass}>
-          Why Brenda's Home Services?
+          Why Brenda&rsquo;s Home Services?
           <textarea
             className={`${inputClass} min-h-28 resize-y`}
             value={state.whyBrendas}
@@ -575,7 +575,7 @@ export function CaregiverApplication() {
             required
           />
           <span className="leading-6">
-            I agree to be contacted by Brenda's Home Services about my application. Required.
+            I agree to be contacted by Brenda&rsquo;s Home Services about my application. Required.
           </span>
         </label>
       </fieldset>
@@ -592,7 +592,7 @@ export function CaregiverApplication() {
         <p className="text-xs leading-5 text-ink/55">
           Submitting opens your email client with a completed message to{" "}
           <span className="font-semibold text-plum-900">{TO_EMAIL}</span>. Hit send and the
-          Brenda's team will follow up.
+          Brenda&rsquo;s team will follow up.
         </p>
       </div>
     </form>
