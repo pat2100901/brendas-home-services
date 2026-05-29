@@ -18,7 +18,7 @@ const reasons = [
   "A warm, family-rooted approach to daily living assistance",
   "Clear communication for families and loved ones",
   "Non-medical care delivered with respect and consistency",
-  "Premium, boutique service with a calm concierge feel",
+  "Premium, one-on-one service with a calm concierge feel",
   "Central Indiana roots with a compassionate local presence"
 ];
 
@@ -110,7 +110,7 @@ export default function HomePage() {
           <div>
             <SectionHeading
               eyebrow="About Brenda’s"
-              title="A boutique home support experience with family at the center."
+              title="A personal home support experience with family at the center."
             >
               Brenda’s Home Services is built for individuals and families who want steady,
               personal, non-medical support in a calm and welcoming way.

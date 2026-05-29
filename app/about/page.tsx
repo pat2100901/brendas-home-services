@@ -80,7 +80,7 @@ export default function AboutPage() {
               { label: "Style of care", value: "One-on-one" },
               { label: "Approach", value: "Non-medical" },
               { label: "Service area", value: "Central Indiana" },
-              { label: "Tone", value: "Calm & boutique" }
+              { label: "Tone", value: "Calm & personal" }
             ].map((stat) => (
               <div
                 key={stat.label}
