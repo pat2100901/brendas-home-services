@@ -122,10 +122,10 @@ export default function AboutPage() {
             <p className="text-xs font-bold uppercase tracking-[0.24em] text-teal-700">
               A note from Brenda
             </p>
-            <h2 className="mt-3 font-serif text-4xl font-semibold tracking-normal text-plum-900 sm:text-5xl">
+            <h2 className="mt-3 font-serif text-3xl font-semibold tracking-normal text-plum-900 sm:text-4xl lg:text-5xl">
               Care should feel like family showed up &mdash; not a shift.
             </h2>
-            <p className="mt-5 text-base leading-8 text-ink/72">
+            <p className="mt-5 text-base leading-7 text-ink/72 sm:leading-8">
               Brenda&rsquo;s Home Services was built for the moments families know well: a
               parent who needs a little more help with daily routines, a loved one who deserves
               steady companionship, a household that just needs a calmer rhythm. Our promise is
@@ -247,10 +247,10 @@ export default function AboutPage() {
               <p className="text-xs font-bold uppercase tracking-[0.24em] text-gold-200">
                 Care promises
               </p>
-              <h2 className="mt-3 font-serif text-4xl font-semibold tracking-normal sm:text-5xl">
+              <h2 className="mt-3 font-serif text-3xl font-semibold tracking-normal sm:text-4xl lg:text-5xl">
                 Six quiet commitments families notice immediately.
               </h2>
-              <p className="mt-5 text-base leading-8 text-plum-100">
+              <p className="mt-5 text-base leading-7 text-plum-100 sm:leading-8">
                 The little things make care feel premium &mdash; tone, consistency, follow-through,
                 respect for the home.
               </p>
@@ -278,7 +278,7 @@ export default function AboutPage() {
               <p className="text-xs font-bold uppercase tracking-[0.24em] text-teal-700">
                 Service area
               </p>
-              <h2 className="mt-3 font-serif text-3xl font-semibold tracking-normal text-plum-900 sm:text-4xl">
+              <h2 className="mt-3 font-serif text-2xl font-semibold tracking-normal text-plum-900 sm:text-3xl lg:text-4xl">
                 Proudly serving families across Central Indiana.
               </h2>
               <p className="mt-5 text-sm leading-8 text-ink/68">

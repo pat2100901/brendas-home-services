@@ -15,10 +15,10 @@ export default function ServicesPage() {
         <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-end">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.24em] text-teal-700">Services</p>
-            <h1 className="mt-3 max-w-4xl font-serif text-5xl font-semibold tracking-normal text-plum-900 sm:text-6xl">
+            <h1 className="mt-3 max-w-4xl font-serif text-3xl font-semibold tracking-normal text-plum-900 sm:text-5xl lg:text-6xl">
               Support that feels practical, personal, and family-centered.
             </h1>
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-ink/70">
+            <p className="mt-6 max-w-2xl text-base leading-7 text-ink/70 sm:text-lg sm:leading-8">
               Brenda’s Home Services offers non-medical one-on-one care for daily routines,
               personal support, companionship, home life, community connection, and family relief.
             </p>

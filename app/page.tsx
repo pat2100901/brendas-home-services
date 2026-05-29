@@ -70,10 +70,10 @@ export default function HomePage() {
               <Sparkles className="size-4 shrink-0 text-gold-500" />
               <span className="min-w-0">Indiana non-medical home support</span>
             </div>
-            <h1 className="mt-7 font-serif text-5xl font-semibold tracking-normal text-plum-900 sm:text-6xl lg:text-7xl">
+            <h1 className="mt-7 font-serif text-4xl font-semibold tracking-normal text-plum-900 sm:text-6xl lg:text-7xl">
               Care that feels personal.
             </h1>
-            <p className="mt-6 max-w-xl text-lg leading-8 text-ink/75 sm:text-xl">
+            <p className="mt-6 max-w-xl text-base leading-7 text-ink/75 sm:text-xl sm:leading-8">
               Compassionate support, right at home. Brenda’s Home Services provides dependable
               non-medical home support for individuals and families across Central Indiana.
             </p>
@@ -172,7 +172,7 @@ export default function HomePage() {
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:items-center">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.24em] text-gold-200">Counties we serve</p>
-            <h2 className="mt-3 font-serif text-4xl font-semibold tracking-normal sm:text-5xl">
+            <h2 className="mt-3 font-serif text-3xl font-semibold tracking-normal sm:text-4xl lg:text-5xl">
               Proudly serving families across Central Indiana.
             </h2>
             <p className="mt-5 text-lg leading-8 text-plum-100">
@@ -195,7 +195,7 @@ export default function HomePage() {
           <div className="grid gap-0 lg:grid-cols-[1fr_0.78fr]">
             <div className="p-7 text-white sm:p-10 lg:p-14">
               <p className="text-sm font-bold uppercase tracking-[0.24em] text-gold-200">Careers</p>
-              <h2 className="mt-3 max-w-3xl font-serif text-4xl font-semibold tracking-normal sm:text-5xl">
+              <h2 className="mt-3 max-w-3xl font-serif text-3xl font-semibold tracking-normal sm:text-4xl lg:text-5xl">
                 Meaningful work for compassionate caregivers.
               </h2>
               <p className="mt-5 max-w-2xl text-lg leading-8 text-plum-100">
