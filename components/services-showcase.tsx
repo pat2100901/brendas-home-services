@@ -64,7 +64,7 @@ export const serviceCards = [
     title: "Transportation Assistance",
     tag: "Nonmedical trips",
     image: serviceImages.transportation,
-    alt: "Caregiver walking arm-in-arm with an older adult along a sunny neighborhood path",
+    alt: "Caregiver helping an older adult into a car at a senior center for a non-medical errand",
     copy: "Support for errands, community activities, senior centers, and approved nonmedical destinations that help clients stay connected."
   },
   {
