@@ -43,15 +43,24 @@ body {
 
 .premium-card {
   transition:
-    transform 220ms ease,
-    box-shadow 220ms ease,
-    border-color 220ms ease,
-    background-color 220ms ease;
+    transform 320ms cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 320ms cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 320ms ease,
+    background-color 320ms ease;
 }
 
 .premium-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 22px 65px rgba(83, 37, 109, 0.14);
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 32px 80px rgba(83, 37, 109, 0.22);
+  border-color: rgba(20, 184, 166, 0.35);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .premium-card,
+  .premium-card:hover {
+    transform: none;
+    transition: box-shadow 220ms ease, border-color 220ms ease;
+  }
 }
 
 .soft-reveal {
