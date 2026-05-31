@@ -143,7 +143,7 @@ export function ServicesShowcase({ variant = "home" }: ServicesShowcaseProps) {
           {serviceCards.map((service, index) => (
             <article
               key={service.title}
-              className="premium-card group overflow-hidden rounded-[2rem] border border-plum-100 bg-white shadow-soft"
+              className="service-card group relative overflow-hidden rounded-[2rem] border border-plum-100 bg-white shadow-soft"
               style={{ animationDelay: `${index * 45}ms` }}
             >
               <div className="relative aspect-[5/3] overflow-hidden">
