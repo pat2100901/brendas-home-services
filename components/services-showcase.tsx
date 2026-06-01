@@ -150,7 +150,7 @@ export function ServicesShowcase({ variant = "home" }: ServicesShowcaseProps) {
                 <div
                   aria-label={service.alt}
                   role="img"
-                  className="absolute inset-0 bg-cover bg-center transition-transform duration-[700ms] ease-out group-hover:scale-110 motion-reduce:group-hover:scale-100"
+                  className="absolute inset-0 bg-cover bg-center transition-transform duration-[800ms] ease-out group-hover:scale-125 motion-reduce:group-hover:scale-100"
                   style={{ backgroundImage: `url("${service.image}")` }}
                 />
                 <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(38,18,52,0.04)_0%,rgba(38,18,52,0.32)_62%,rgba(38,18,52,0.76)_100%)]" />
